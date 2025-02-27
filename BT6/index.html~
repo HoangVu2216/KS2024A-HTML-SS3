@@ -1,0 +1,59 @@
+<!--<!doctype html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--    <meta charset="UTF-8">-->
+<!--    <meta name="viewport"-->
+<!--          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">-->
+<!--    <meta http-equiv="X-UA-Compatible" content="ie=edge">-->
+<!--    <title>Document</title>-->
+<!--</head>-->
+<!--<body>-->
+<!--<form action="">-->
+<!--    <label for="rating">Họ và Tên:</label>-->
+<!--    <input type="text" placeholder=""><br>-->
+<!--    <label for="date">Chọn ngày giờ:</label>-->
+<!--    <input type="date" placeholder="dd/mm/yyyy &#45;&#45;:&#45;&#45; &#45;&#45;">-->
+
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đặt Lịch</title>
+</head>
+<body>
+<form>
+    <!-- Họ và tên -->
+    <label for="kind_of_service">Chọn sản phẩm:</label>
+    <select name="kind_of_service">
+        <option value="1">Sản Phẩm 1</option>
+        <option value="2">Sản Phẩm 2</option>
+        <option value="3">Sản Phẩm 3</option>
+        <option value="0">khác</option>
+        <!--... Thêm các loại dịch vụ -->
+        <!--... -->
+    </select>
+
+    <br>
+    <label for="count">Số lượng:</label>
+    <input type="number"
+        value="1"
+    >
+
+    <br>
+
+    <label for="place">Địa chỉ giao hàng:</label>
+    <textarea
+            rows="5"
+            cols="20"
+    ></textarea>
+    <br>
+
+    <!-- Nút đặt lịch -->
+    <button type="submit">Đặt hàng</button>
+</form>
+</body>
+</html>

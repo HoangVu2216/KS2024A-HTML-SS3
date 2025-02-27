@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký Học</title>
+</head>
+<body>
+<form>
+    <table>
+        <tr>
+            <td>Họ và tên:</td>
+            <td><input type="text" name="fullname"></td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="email" name="email"></td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <input type="radio" name="gender" value="Nam"> Nam
+                <input type="radio" name="gender" value="Nữ"> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="tel" name="phone"></td>
+        </tr>
+        <tr>
+            <td>Chuyên ngành:</td>
+            <td><input type="text" name="major"></td>
+        </tr>
+        <tr>
+            <td>Năm nhập học:</td>
+            <td>
+                <input type="text" name="admission_year" size="3">
+            </td>
+        </tr>
+        <tr>
+            <td>Điểm GPA:</td>
+            <td>
+                <input type="text" name="gpa" size="3">
+            </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><textarea name="address"
+                          rows="3" cols="20"></textarea></td>
+        </tr>
+        <tr>
+            <td>Lớp học:</td>
+            <td>
+                <select name="class">
+                    <option value="lop1">Lớp 1</option>
+                    <option value="lop2">Lớp 2</option>
+                    <option value="lop3">Lớp 3</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Ngày đăng ký học:</td>
+            <td><input type="datetime-local" name="register_date"></td>
+        </tr>
+        <tr>
+            <td magin="0px">
+                <button type="submit">Gửi thông tin</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

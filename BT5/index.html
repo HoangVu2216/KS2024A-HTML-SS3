@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đặt Lịch</title>
+</head>
+<body>
+<form>
+    <!-- Họ và tên -->
+    <label for="fullname">Họ và tên:</label>
+    <input
+            type="text"
+    >
+    <br>
+
+    <tr>
+        <td>Chọn ngày giờ:</td>
+        <td><input type="datetime-local"
+                   name="date"></td>
+    </tr>
+    <br>
+
+    <!-- Loại dịch vụ -->
+    <label for="service">Loại dịch vụ:</label>
+    <select name="service">
+        <option value="tu-van">Tư vấn</option>
+        <option value="khac">Khác</option>
+    </select>
+    <br>
+
+    <!-- Ghi chú -->
+    <label for="note">Ghi chú:</label>
+    <textarea
+            rows="5"
+            cols="20"
+    ></textarea>
+    <br>
+
+    <!-- Nút đặt lịch -->
+    <button type="submit">Đặt lịch</button>
+</form>
+</body>
+</html>
